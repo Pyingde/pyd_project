@@ -1,0 +1,19 @@
+.xcarousel{position:relative;width: 224px;height: 288px;overflow: hidden;}
+.xcarousel ul{position:absolute;left:0;top:0;overflow: hidden;}
+.xcarousel ul.horizontal li{float:left;}
+.xcarousel ul.fade li{position: absolute;top:-20px;left:-100px}
+.xcarousel img{display:block;}
+.xcarousel .page{position:absolute;left:50%;bottom:10px;transform: translateX(-50%);background: rgba(0,0,0,0.5);padding: 6px;border-radius: 10px;}
+.xcarousel .page span{display:inline-block;width: 8px;height: 8px;overflow: hidden;background: #808080;border-radius: 50%;margin:0 8px;text-indent:-1000px;}
+.xcarousel .page span.active{position: relative;top: 2px;width: 14px;height: 14px;background:rgba(0,0,0,0);border: 2px solid white;}
+.xcarousel > span{display: none; cursor:pointer;position: absolute;top:50%;left:10px;transform:translate(0,-50%);width:30px;height:100px;line-height:100px;text-align:center;background-color: rgba(0,0,0,.3);color:#fff;}
+.xcarousel .btn-next{left:auto;right:10px;font-size: 20px;}
+.xcarousel .btn-prev{left: 300px;font-size: 20px;font-weight: bold;}
+.xcarousel:hover >span{display: block;font-weight: bold;}
+/*
+小图
+ */
+.xcarousel .small{border-box;box-sizing: border-box;position:absolute;bottom:0px;left:50%;transform:translate(-50%,0);height:40px;overflow: hidden;}
+.xcarousel .small li{float:left;box-sizing: border-box;}
+.xcarousel .small img{width:40px;box-sizing:}
+.xcarousel .small li.light{border: 3px solid orange;}
