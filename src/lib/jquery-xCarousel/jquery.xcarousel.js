@@ -111,20 +111,59 @@
 					this.start();
 					// $this.trigger('mouseleave');
 
-					$this.on('mouseenter',()=>{
+					$('#banner').on('mouseenter',()=>{
 						this.stop();
+						$('#banner .btn-prev').animate({opacity:1,left:300});
+						$('#banner .btn-next').animate({opacity:1,right:100});
+
 					}).on('mouseleave',()=>{
 						this.start();
+						$('#banner .btn-prev').animate({opacity:0,left:250});
+						$('#banner .btn-next').animate({opacity:0,right:50});
 					})
+					
+					
+					$('#hot .body .banner').on('mouseenter',()=>{
+						this.stop();						
+						$('.btn-prev').animate({opacity:1,left:10});
+						$('.btn-next').animate({opacity:1,right:10});
+					}).on('mouseleave',()=>{
+						this.start();						
+						$('.btn-prev').animate({opacity:0,left:0});
+						$('.btn-next').animate({opacity:0,right:0});
+					})
+					
+					$('#sale .body .banner').on('mouseenter',()=>{
+						this.stop();						
+						$('.btn-prev').animate({opacity:1,left:10});
+						$('.btn-next').animate({opacity:1,right:10});
+					}).on('mouseleave',()=>{
+						this.start();						
+						$('.btn-prev').animate({opacity:0,left:0});
+						$('.btn-next').animate({opacity:0,right:0});
+					})
+					
+					$('#new .body .banner').on('mouseenter',()=>{
+						this.stop();						
+						$('.btn-prev').animate({opacity:1,left:10});
+						$('.btn-next').animate({opacity:1,right:10});
+					}).on('mouseleave',()=>{
+						this.start();						
+						$('.btn-prev').animate({opacity:0,left:0});
+						$('.btn-next').animate({opacity:0,right:0});
+					})
+				
+				
+				
 				}
 
-				
 
 				// 点击页码
 				$this.on('mouseenter','.page span',function(){
 					opt.index = $(this).index();
 					carousel.move();
 				})
+				
 
 				// 左右按钮
 				.on('click','.btn-prev',function(){
@@ -139,7 +178,7 @@
 				$this.on("mouseenter",".small li",function(){
 					opt.index = $(this).index();
 					carousel.move();
-				} )
+				})
 				// 显示当前图片
 				this.move();
 			},
@@ -166,9 +205,13 @@
 				}
 				// 淡入淡出
 				else if(opt.type === 'fade'){
+					
+					$ul.children().eq(opt.index).children().eq(0).css({transform:`scale(1)`});
 					$ul.children().eq(opt.index).stop().animate({opacity:1},function(){
-						$ul.children().eq(opt.index).children().eq(0).stop().css({transform:`scale(0.95)`});
-					}).siblings('li').stop().animate({opacity:0});
+						$ul.children().eq(opt.index).children().eq(0).stop().css({transform:`scale(0.95)`})
+					}).siblings('li').stop().animate({opacity:0,function(){
+						
+					}});
 				}
 				// 高亮显示页码
 				if(opt.showPage){
