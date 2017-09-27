@@ -1,6 +1,4 @@
 ;(function($){
-	// $.xCarousel = function(){}
-	// $.prototype.xCarousel = function(options){}
 	$.fn.xCarousel = function(options){
 		// 属性
 		var defaults = {
@@ -206,12 +204,18 @@
 				// 淡入淡出
 				else if(opt.type === 'fade'){
 					
-					$ul.children().eq(opt.index).children().eq(0).css({transform:`scale(1)`});
+					//$ul.children().eq(opt.index).children().eq(0).css({transform:`scale(1)`});
+					
+//					$ul.children().eq(opt.index).stop().animate({opacity:1},function(){
+//						$ul.children().eq(opt.index).children().eq(0).stop().css({transform:`scale(0.95)`})
+//					}).siblings('li').stop().animate({opacity:0,},function(){
+//						$ul.children().eq(opt.index).siblings('li').children().eq(0).css({transform:`scale(1)`});
+//					});
 					$ul.children().eq(opt.index).stop().animate({opacity:1},function(){
-						$ul.children().eq(opt.index).children().eq(0).stop().css({transform:`scale(0.95)`})
-					}).siblings('li').stop().animate({opacity:0,function(){
-						
-					}});
+						$(this).children().eq(0).css({transform:'scale(0.95)'});
+					}).siblings('li').stop().animate({opacity:0},function(){
+						$(this).children().eq(0).css({transform:'scale(1)'});
+					});
 				}
 				// 高亮显示页码
 				if(opt.showPage){
