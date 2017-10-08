@@ -22,5 +22,4 @@ require(['jquery','xcarousel','banner','header_1','endtimer','like','footer','fi
 	like.like();
 	footer.footer();
 	fixed.fixed();
-	
 });

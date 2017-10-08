@@ -17,16 +17,19 @@ define(['jquery'],function($){
 			$(window).scroll(function(){
 				//获取当前页面顶部的坐标
 		        var scrolltop=$(this).scrollTop();
-//		        console.log(scrolltop);
 		        //将当前页面顶部top值与 目标位置的top值做比较 
-		        if(scrolltop>=600){  
+		        if(scrolltop<600){
+		        	$fixed.hide(); 
+		        }
+		        else if(scrolltop>=600&&scrolltop<3945){  
 		        	 //当当前窗口顶部坐标大于目标位置时，按钮显示   否则隐藏按钮  
-		            $fixed.show();    
-		        }else{  
-		            $fixed.hide();  
+		            $fixed.show(); 
+		            $fixed.addClass("fixed").removeClass("absoule"); 
+		        }else if(scrolltop>=3945){
+		            $fixed.addClass("absoule").removeClass("fixed");  
 		        }  
 		    });
-		    
+		    //左边导航条点击时到达指定位置
 		    $lis.eq(0).click(function(){  
 				$("html,body").animate({scrollTop:hotY});    
 			});
@@ -48,6 +51,25 @@ define(['jquery'],function($){
 			$lis.eq(6).click(function(){  
 				$("html,body").animate({scrollTop:zixunY});    
 			});  
+			
+			/***************右边导航条***************/
+			//返回顶部
+			var $li_b=$('#fix_right_b ul li').eq(3);
+			$li_b.on('click',function(){
+				$("html,body").animate({scrollTop:0});
+			});
+			
+			//点击隐藏，hover出现
+			var $img=$('#fix_right_t i').eq(0);
+			var $box=$('#fix_right_t .box').eq(0);
+			var $i=$('#fix_right_t i').eq(1);
+			
+			$i.on('click',function(){
+				$box.css({display:'none'})
+			})
+			$img.on('mouseenter',function(){
+				$box.css({display:'block'})
+			})
 		}
 	}
 });

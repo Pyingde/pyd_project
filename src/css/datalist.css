@@ -1,0 +1,91 @@
+.nav ul li.fa:hover .fa_ul { display: block; }
+
+.nav ul li.fa .fa_ul { display: none; }
+
+.nav ul li.er a span { border-bottom: 2px solid #CC0000; }
+
+#data .header { width: 100%; height: 40px; background-color: #EEEEEE; }
+
+#data .header h4 { font-size: 12px; line-height: 40px; color: #999; font-weight: normal; }
+
+#data .body .imgbox_l { margin-top: 20px; width: 480px; float: left; }
+
+#data .body .imgbox_l .imgbox { width: 480px; height: 480px; border: 1px solid #CCCCCC; }
+
+#data .body .imgbox_l .imgbox img { width: 470px; height: 470px; padding: 5px; }
+
+#data .body .imgbox_l ul { width: 100%; height: 105px; }
+
+#data .body .imgbox_l ul li { float: left; width: 61px; height: 67px; overflow: hidden; margin: 0 auto; text-align: center; line-height: 67px; font-size: 20px; margin-right: 10px; margin-top: 20px; }
+
+#data .body .imgbox_l ul li:first-child { margin-right: 0px; }
+
+#data .body .imgbox_l ul li:last-child { margin-right: 0px; }
+
+#data .body .imgbox_l ul li img { width: 67px; opacity: 0.5; transition: all 2s; }
+
+#data .body .imgbox_l ul li img:hover { transform: scale(1.1); opacity: 1; }
+
+#data .body .box_r { float: left; width: 690px; margin-left: 20px; margin-top: 20px; }
+
+#data .body .box_r .header_box h3 { font-size: 16px; color: #999; line-height: 24px; }
+
+#data .body .box_r .header_box p { margin-top: 10px; margin-bottom: 10px; display: inline-block; font-size: 12px; color: #B32424; }
+
+#data .body .box_r .header_box .aa { margin-top: 10px; margin-bottom: 10px; font-size: 12px; color: #B32424; margin-left: 10px; border-bottom: 1px solid #B32424; }
+
+#data .body .box_r .header_box span { display: inline-block; font-size: 12px; color: #999; padding-right: 30px; }
+
+#data .body .box_r .price_box { width: 100%; height: 180px; margin: 10px 0px; background-color: #f2f2f2; padding: 10px 5px; }
+
+#data .body .box_r .price_box .sg { font-size: 12px; color: red; }
+
+#data .body .box_r .price_box #price { font-size: 12px; color: #B32424; margin: 0px 5px; }
+
+#data .body .box_r .price_box #price b { font-size: 20px; }
+
+#data .body .box_r .price_box del { font-size: 12px; color: #999; margin-right: 5px; }
+
+#data .body .box_r .price_box #discount { font-size: 12px; color: #999; background-color: #CCCCCC; }
+
+#data .body .box_r .price_box a { font-size: 12px; color: #999; border-bottom: 1px solid #999999; margin-left: 6px; }
+
+#data .body .box_r .price_box span { display: inline-block; margin-top: 20px; font-size: 12px; color: #999999; }
+
+#data .body .box_r .price_box .fenqi { margin-left: 15px; margin-right: 15px; }
+
+#data .body .box_r .price_box .fenqi:hover { color: #B32424; }
+
+#data .body .box_r .price_box img { margin-left: 35px; margin-top: 15px; }
+
+#data .body .box_r p { font-size: 12px; color: #999999; line-height: 30px; }
+
+#data .body .box_r .ks { margin-top: 10px; position: relative; padding-bottom: 20px; border-bottom: 1px dotted #DDDDDD; }
+
+#data .body .box_r .ks span { position: absolute; left: 0px; top: 20px; display: inline-block; font-size: 12px; color: #999999; }
+
+#data .body .box_r .ks img { display: inline-block; width: 50px; height: 50px; margin: 5px; padding: 5px; border: 1px solid #fff; }
+
+#data .body .box_r .ks img:first-of-type { margin-left: 50px; }
+
+#data .body .box_r .ks img.active { border: 1px solid #CC0000; }
+
+#data .body .box_r .num { padding-top: 15px; }
+
+#data .body .box_r .num span { font-size: 12px; color: #999999; padding-right: 20px; }
+
+#data .body .box_r .num input { width: 30px; text-align: center; }
+
+#data .body .box_r .num .xian { padding-left: 20px; color: #666666; }
+
+#data .body .box_r .num .xian b { color: #CC0000; padding: 0px 5px; }
+
+#data .body .box_r .gou { margin-top: 20px; position: relative; }
+
+#data .body .box_r .gou a { display: inline-block; width: 166px; height: 40px; text-align: center; line-height: 40px; color: #C12727; border: 1px solid #999; font-weight: bold; }
+
+#data .body .box_r .gou a.active { background-color: #C12727; color: white; border: 0 none; margin-right: 10px; }
+
+#data .body .box_r .gou img { position: absolute; right: 100px; top: 0px; }
+
+#body { width: 100%; height: 500px; background-color: tan; }

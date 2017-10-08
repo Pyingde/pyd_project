@@ -1,11 +1,12 @@
 define(['jquery'],function($){
 	return {
 		header_1:function(){
-			$(function($){
+			$(function($){	
 				var $li=$('.header1 ul li:nth-child(4)');
 				var $erweima=$('.header1 .erweima');
 				var $imgs=$('.header1 .erweima img');
 				var $h4s=$('.header1 .erweima h4');
+				
 				$li.on('mouseenter',$erweima,function(){
 					$erweima.css({display:`block`});
 					$erweima.stop().animate({height:215});
@@ -13,8 +14,7 @@ define(['jquery'],function($){
 					$erweima.stop().animate({height:0},function(){
 						$erweima.css({display:`none`});
 					});	
-				})
-				
+				})			
 				$h4s.first().addClass('active');
 				$imgs.slice(1).hide();
 				$h4s.on('mouseenter',$imgs,function(){
@@ -43,6 +43,13 @@ define(['jquery'],function($){
 				})
 				
 			});
+			
+			/***********************广告********************************/
+			$('.guanggao span').on('click',function(){
+				$('.guanggao').hide();
+				
+				
+			})
 		}
 	}
 });

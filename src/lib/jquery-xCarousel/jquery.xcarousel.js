@@ -24,9 +24,12 @@
 			// 轮播类型：fade:淡入淡出, vertial:垂直滚动, horizontal:水平滚动, show:幻灯片
 			type:'vertical',
 
+
 			// 默认显示图片索引
 			index:0,
 			
+			//是否无缝
+			seamless:'false'
 		}
 		// 这里的this,jquery对象
 		var $this = this;
@@ -35,9 +38,7 @@
 		//这里的this为DOM节点
 		var $this = $(this);
 
-		var opt = $.extend({},defaults,options);
-			
-		
+		var opt = $.extend({},defaults,options);	
 		var carousel = {
 			init:function(){
 				
@@ -47,6 +48,12 @@
 				$ul.html(opt.imgs.map(function(item){
 					return `<li><img src="${item}"/></li>`;
 				}).join(''));
+				
+				if(opt.seamless==='true'){
+					var $copyItem =$ul.children().eq(0).clone();
+//					$ul.appendChild($copyItem);
+					$ul.append($copyItem)
+				}
 
 				$this.append($ul);
 
@@ -54,7 +61,12 @@
 				$this.addClass('xcarousel');
 				$ul.addClass(opt.type);
 				if(opt.type === 'horizontal'){
-					$ul.width(opt.width*opt.imgs.length);
+					if(opt.seamless==='true'){
+						$ul.width(opt.width*(opt.imgs.length+1))
+					}
+					else{
+						$ul.width(opt.width*opt.imgs.length);
+					}			
 				}else if(opt.type === 'fade'){
 					$ul.css({
 						width:opt.width,
@@ -87,7 +99,6 @@
 					var $small = $('<div/>').addClass('small');
 					
 					var $cloneUl = $ul.clone().removeClass().removeAttr('style');
-//					var $cloneUl = $ul.clone().removeClass()
 					
 					$cloneUl.appendTo($small);
 
@@ -108,7 +119,7 @@
 				if(opt.autoPlay){
 					this.start();
 					// $this.trigger('mouseleave');
-
+					
 					$('#banner').on('mouseenter',()=>{
 						this.stop();
 						$('#banner .btn-prev').animate({opacity:1,left:300});
@@ -182,10 +193,21 @@
 			},
 			move:function(){
 				// 处理index值
-				if(opt.index>=opt.imgs.length){
-					opt.index = 0;
-				}else if(opt.index<0){
-					opt.index = opt.imgs.length-1;
+				
+				if(opt.seamless==='true'){
+					if(opt.index>opt.imgs.length){						
+						opt.index = 1;
+						var $ul = $this.find('ul');
+						$ul.css({left:0});						
+					}
+				}
+				else if(opt.seamless==='false'){
+					if(opt.index>=opt.imgs.length){
+						opt.index = 0;
+					}
+					else if(opt.index<0){
+						opt.index = opt.imgs.length-1;
+					}
 				}
 
 				var $ul = $this.find('ul');
@@ -199,18 +221,11 @@
 					$(".vertical").stop().animate(params);
 				}else if(opt.type === 'horizontal'){
 					params.left = -opt.index*opt.width;
-					$(".horizontal").stop().animate(params);
+					$this.find(".horizontal").stop().animate(params);
+					
 				}
 				// 淡入淡出
 				else if(opt.type === 'fade'){
-					
-					//$ul.children().eq(opt.index).children().eq(0).css({transform:`scale(1)`});
-					
-//					$ul.children().eq(opt.index).stop().animate({opacity:1},function(){
-//						$ul.children().eq(opt.index).children().eq(0).stop().css({transform:`scale(0.95)`})
-//					}).siblings('li').stop().animate({opacity:0,},function(){
-//						$ul.children().eq(opt.index).siblings('li').children().eq(0).css({transform:`scale(1)`});
-//					});
 					$ul.children().eq(opt.index).stop().animate({opacity:1},function(){
 						$(this).children().eq(0).css({transform:'scale(0.95)'});
 					}).siblings('li').stop().animate({opacity:0},function(){
@@ -219,6 +234,11 @@
 				}
 				// 高亮显示页码
 				if(opt.showPage){
+					if(opt.seamless==='true'){
+						if(opt.index===(opt.imgs.length)){
+							$this.find('.page').children().eq(0).addClass('active').siblings('span').removeClass();	
+						}
+					}
 					$this.find('.page').children().eq(opt.index).addClass('active').siblings('span').removeClass();
 				}
 				if(opt.showSmall){

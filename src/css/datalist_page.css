@@ -1,0 +1,249 @@
+.nav ul li.fa:hover .fa_ul { display: block; }
+
+.nav ul li.fa .fa_ul { display: none; }
+
+.nav ul li.er a span, .nav #main_2 #goods #goodlist ul li.er a p, #main_2 #goods #goodlist .nav ul li.er a p { border-bottom: 2px solid #CC0000; }
+
+#main { background-color: #FAFAFA; }
+
+#main_1 { width: 200px; background-color: #FAFAFA; padding-top: 20px; float: left; }
+
+#main_1 .main_1_l_1 { float: left; width: 200px; }
+
+#main_1 .main_1_l_1 a { display: inline-block; font-size: 12px; color: #666666; }
+
+#main_1 .main_1_l_1 a span, #main_1 .main_1_l_1 a #main_2 #goods #goodlist ul li p, #main_2 #goods #goodlist ul li #main_1 .main_1_l_1 a p { display: inline-block; padding: 0px 14px; text-align: center; }
+
+#main_1 .main_1_l_1 a span:hover, #main_1 .main_1_l_1 a #main_2 #goods #goodlist ul li p:hover, #main_2 #goods #goodlist ul li #main_1 .main_1_l_1 a p:hover { color: #AE0E16; }
+
+#main_1 .main_1_l_1 a:hover { color: #AE0E16; }
+
+#main_1 .main_1_l_1 span, #main_1 .main_1_l_1 #main_2 #goods #goodlist ul li p, #main_2 #goods #goodlist ul li #main_1 .main_1_l_1 p { font-size: 12px; color: #666666; }
+
+#main_1 .main_1_l_1 ul { border: 1px solid white; border-bottom: 0 none; }
+
+#main_1 .main_1_l_1 ul.first_ul, #main_1 .main_1_l_1 ul.two_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul { margin-top: 10px; }
+
+#main_1 .main_1_l_1 ul.first_ul a, #main_1 .main_1_l_1 ul.two_ul a, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul a, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul a, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul a, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul a { padding-left: 15px; }
+
+#main_1 .main_1_l_1 ul.first_ul .first_li a, #main_1 .main_1_l_1 ul.two_ul .first_li a, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul .first_li a, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul .first_li a, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul .first_li a, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul .first_li a { padding-left: 0px; }
+
+#main_1 .main_1_l_1 ul.two_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul { margin-top: 0px; }
+
+#main_1 .main_1_l_1 ul.third_ul { border-bottom: 1px solid white; }
+
+#main_1 .main_1_l_1 ul li { line-height: 20px; }
+
+#main_1 .main_1_l_1 ul li.first_li { padding-left: 0px; font-weight: bold; background-color: #F7F7F7; border-bottom: 1px solid #DCDCDC; padding-left: 5px; }
+
+#main_1 .main_1_l_1 .main_2_l_2 { margin-top: 10px; }
+
+#main_1 .main_1_l_1 .main_2_l_2 img { width: 200px; height: 400px; }
+
+#main_1 .main_1_l_1 .main_2_l_3 { margin-top: 20px; }
+
+#main_1 .main_1_l_1 .main_2_l_3 p { font-size: 12px; color: #666666; }
+
+#main_1 .main_1_l_1 .main_2_l_3 p.p { font-weight: bold; color: #B32424; margin: 8px 0px; }
+
+#main_1 .main_1_l_1 .main_2_l_3 span, #main_1 .main_1_l_1 .main_2_l_3 #main_2 #goods #goodlist ul li p, #main_2 #goods #goodlist ul li #main_1 .main_1_l_1 .main_2_l_3 p { display: inline-block; width: 80px; height: 30px; font-weight: bold; color: #666666; text-align: center; }
+
+#main_1 .main_1_l_1 .main_2_l_3 span.price, #main_1 .main_1_l_1 .main_2_l_3 #main_2 #goods #goodlist ul li p.price, #main_2 #goods #goodlist ul li #main_1 .main_1_l_1 .main_2_l_3 p.price { color: #AA1313; font-size: 14px; }
+
+#main_1 .main_1_l_1 .main_2_l_3 img { width: 150px; margin: 10px auto; }
+
+#main_1 .main_1_l_1 .main_2_l_3 ul { background-color: white; border-bottom: 1px dotted #CCCCCC; }
+
+#main_1 .main_1_l_1 .main_2_l_3 ul:last-of-type { border-bottom: 0 none; }
+
+#main_1 .main_1_l_1 .main_2_l_4 { margin-top: 10px; }
+
+#main_1 .main_1_l_1 .main_2_l_4 p { font-size: 12px; color: #B01330; margin: 10px 0px; font-weight: bold; }
+
+#main_1 .main_1_l_1 .main_2_l_4 img { width: 200px; height: 1000px; }
+
+#main_1 .main_1_l_1 .main_2_l_5 { margin-top: 10px; }
+
+#main_1 .main_1_l_1 .main_2_l_5 a { display: inline-block; font-size: 12px; color: #666666; margin: 10px 0px; font-weight: bold; }
+
+#main_1 .main_1_l_1 .main_2_l_5 a.active { color: #B01330; }
+
+#main_1 .main_1_l_1 .main_2_l_5 img { width: 200px; height: 700px; }
+
+#main_1 .main_1_l_1 .main_2_l_5 .banner2 { display: none; }
+
+#main_1 .main_1_l_1 .main_2_l_5 .hotword { display: none; background-color: white; padding-left: 10px; }
+
+#main_1 .main_1_l_1 .main_2_l_5 .hotword a { color: #666666; }
+
+#main_1 .main_1_l_1 .main_2_l_6 { margin-top: 10px; padding: 5px; }
+
+#main_1 .main_1_l_1 .main_2_l_6 a { display: inline-block; font-size: 12px; color: #666666; margin: 10px 0px; font-weight: bold; }
+
+#main_1 .main_1_l_1 .main_2_l_6 a.active { color: #B01330; }
+
+#main_1 .main_1_l_1 .main_2_l_6 .sbzx { display: none; background-color: white; }
+
+#main_1 .main_1_l_1 .main_2_l_6 .wzcn { display: none; background-color: white; padding: 5px; }
+
+#main_1 .main_1_l_1 .main_2_l_6 ul li { width: 200px; height: 30px; line-height: 30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; color: #666666; }
+
+#main_1 .main_1_l_1 .main_2_l_6 p { font-size: 12px; color: #666666; line-height: 20px; }
+
+#main_2 { width: 980px; padding-top: 20px; float: left; margin-left: 20px; }
+
+#main_2 .header { width: 100%; }
+
+#main_2 .header span, #main_2 .header #goods #goodlist ul li p, #main_2 #goods #goodlist ul li .header p { float: right; font-size: 12px; color: #666666; line-height: 20px; }
+
+#main_2 .header span:nth-child(2), #main_2 .header #goods #goodlist ul li p:nth-child(2), #main_2 #goods #goodlist ul li .header p:nth-child(2) { margin-right: 20px; }
+
+#main_2 .shai { width: 100%; border: 1px solid #CCCCCC; font-size: 12px; color: #666666; }
+
+#main_2 .shai p { height: 45px; font-size: 12px; background-color: #F7F7F7; line-height: 45px; padding-left: 10px; color: #666666; font-weight: bold; }
+
+#main_2 .shai ul { background-color: white; }
+
+#main_2 .shai ul .first_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul { padding-left: 5px; border-bottom: 1px dotted #CCCCCC; }
+
+#main_2 .shai ul .first_ul li, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li { line-height: 30px; }
+
+#main_2 .shai ul .first_ul li a, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li a, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li a, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li a, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li a, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li a, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li a { display: inline-block; width: 60px; margin-left: 10px; margin-right: 20px; }
+
+#main_2 .shai ul .first_ul li a span, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li a span, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li a span, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li a span, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li a span, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li a span, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li a span, #main_2 .shai #goods #goodlist ul .first_ul li a p, #main_2 #goods #goodlist .shai ul .first_ul li a p, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li a p, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li a p, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li a p, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li a p, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li a p, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li a p, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li a p, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li a p, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li a p, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li a p, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li a p, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li a p { color: #666666; padding: 5px; }
+
+#main_2 .shai ul .first_ul li a span:hover, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li a span:hover, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li a span:hover, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li a span:hover, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li a span:hover, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li a span:hover, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li a span:hover, #main_2 .shai #goods #goodlist ul .first_ul li a p:hover, #main_2 #goods #goodlist .shai ul .first_ul li a p:hover, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li a p:hover, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li a p:hover, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li a p:hover, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li a p:hover, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li a p:hover, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li a p:hover, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li a p:hover, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li a p:hover, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li a p:hover, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li a p:hover, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li a p:hover, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li a p:hover { background-color: #CC0000; color: white; }
+
+#main_2 .shai ul .first_ul li span.oo, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li span.oo, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li span.oo, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li span.oo, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li span.oo, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li span.oo, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li span.oo, #main_2 .shai #goods #goodlist ul .first_ul li p.oo, #main_2 #goods #goodlist .shai ul .first_ul li p.oo, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.oo, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.oo, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li p.oo, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li p.oo, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li p.oo, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li p.oo, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.oo, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.oo, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li p.oo, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li p.oo, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.oo, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.oo { padding-left: 60px; color: #CCCCCC; }
+
+#main_2 .shai ul .first_ul li span.o, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li span.o, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li span.o, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li span.o, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li span.o, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li span.o, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li span.o, #main_2 .shai #goods #goodlist ul .first_ul li p.o, #main_2 #goods #goodlist .shai ul .first_ul li p.o, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.o, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.o, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li p.o, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li p.o, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li p.o, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li p.o, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.o, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.o, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li p.o, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li p.o, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.o, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.o { padding-left: 33px; }
+
+#main_2 .shai ul .first_ul li span.r_span, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li span.r_span, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li span.r_span, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li span.r_span, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li span.r_span, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li span.r_span, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li span.r_span, #main_2 .shai #goods #goodlist ul .first_ul li p.r_span, #main_2 #goods #goodlist .shai ul .first_ul li p.r_span, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.r_span, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.r_span, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li p.r_span, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li p.r_span, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li p.r_span, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li p.r_span, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.r_span, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.r_span, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li p.r_span, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li p.r_span, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.r_span, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.r_span { float: right; position: relative; margin-right: 15px; margin-top: 15px; font-size: 12px; padding: 0px 10px 0px 30px; background-color: #FAFAFA; }
+
+#main_2 .shai ul .first_ul li span.r_span i, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li span.r_span i, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li span.r_span i, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li span.r_span i, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li span.r_span i, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li span.r_span i, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li span.r_span i, #main_2 .shai #goods #goodlist ul .first_ul li p.r_span i, #main_2 #goods #goodlist .shai ul .first_ul li p.r_span i, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.r_span i, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li p.r_span i, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.r_span i, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li p.r_span i, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li p.r_span i, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.r_span i, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.r_span i { position: absolute; display: block; width: 20px; height: 20px; left: 8px; top: 2px; }
+
+#main_2 .shai ul .first_ul li span.a, #main_2 .shai ul #main_1 .main_1_l_1 ul.two_ul li span.a, #main_1 .main_1_l_1 #main_2 .shai ul ul.two_ul li span.a, #main_1 .main_1_l_1 #main_2 .shai ul ul.thd_ul li span.a, #main_2 .shai ul #main_1 .main_1_l_1 ul.thd_ul li span.a, #main_1 .main_1_l_1 #main_2 .shai ul ul.fou_ul li span.a, #main_2 .shai ul #main_1 .main_1_l_1 ul.fou_ul li span.a, #main_2 .shai #goods #goodlist ul .first_ul li p.a, #main_2 #goods #goodlist .shai ul .first_ul li p.a, #main_2 .shai #goods #goodlist ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.a, #main_2 #goods #goodlist .shai ul.two_ul #main_1 .main_1_l_1 ul.two_ul li p.a, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.two_ul ul.two_ul li p.a, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.two_ul ul.two_ul li p.a, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.thd_ul ul.thd_ul li p.a, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.thd_ul ul.thd_ul li p.a, #main_2 .shai #goods #goodlist ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.a, #main_2 #goods #goodlist .shai ul.thd_ul #main_1 .main_1_l_1 ul.thd_ul li p.a, #main_1 .main_1_l_1 #main_2 .shai #goods #goodlist ul.fou_ul ul.fou_ul li p.a, #main_1 .main_1_l_1 #main_2 #goods #goodlist .shai ul.fou_ul ul.fou_ul li p.a, #main_2 .shai #goods #goodlist ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.a, #main_2 #goods #goodlist .shai ul.fou_ul #main_1 .main_1_l_1 ul.fou_ul li p.a { margin-right: 80px; }
+
+#main_2 .shai ul .two_ul, #main_2 .shai ul .thd_ul, #main_2 .shai ul .fou_ul { padding-left: 5px; border-bottom: 1px dotted #CCCCCC; }
+
+#main_2 .shai ul .two_ul li, #main_2 .shai ul .thd_ul li, #main_2 .shai ul .fou_ul li { float: left; line-height: 30px; }
+
+#main_2 .shai ul .two_ul li a, #main_2 .shai ul .thd_ul li a, #main_2 .shai ul .fou_ul li a { color: #666666; margin-left: 10px; margin-right: 20px; padding: 5px; }
+
+#main_2 .shai ul .two_ul li a:first-child, #main_2 .shai ul .thd_ul li a:first-child, #main_2 .shai ul .fou_ul li a:first-child { margin-left: 30px; }
+
+#main_2 .shai ul .two_ul li a:hover, #main_2 .shai ul .thd_ul li a:hover, #main_2 .shai ul .fou_ul li a:hover { background-color: #CC0000; color: white; }
+
+#main_2 .shai ul .thd_ul li a { margin: 0px 0px 0px 0px; }
+
+#main_2 .shai ul .thd_ul li input { width: 40px; }
+
+#main_2 .shai ul .thd_ul li input:first-child { margin-left: 10px; }
+
+#main_2 .shai ul .thd_ul li input#btn_queding { background-color: #EEEEEE; border: 0 none; color: #666666; }
+
+#main_2 .shai ul .fou_ul { border-bottom: 0 none; }
+
+#main_2 .shai ul .fou_ul li a { margin: 0px 0px 0px 0px; }
+
+#main_2 .shai .cov { height: 0; overflow: hidden; }
+
+#main_2 .last { width: 400px; height: 30px; cursor: pointer; line-height: 30px; margin: 0 auto; background-color: white; text-align: center; border: 1px solid #CCCCCC; border-top: 1px solid white; font-size: 12px; color: #666666; margin-top: -1px; }
+
+#main_2 .tehui { margin: 25px 0; }
+
+#main_2 #goods { width: 100%; background-color: white; border: 1px solid white; }
+
+#main_2 #goods .paixu { background-color: #FAFAFA; padding: 3px; }
+
+#main_2 #goods .paixu a { display: inline-block; font-size: 12px; background-color: white; padding: 5px; color: #666666; }
+
+#main_2 #goods .paixu a:hover { color: #CC0000; }
+
+#main_2 #goods .paixu a.active { background-color: #CC0000; color: white; }
+
+#main_2 #goods .paixu span, #main_2 #goods .paixu #goodlist ul li p, #main_2 #goods #goodlist ul li .paixu p { font-size: 12px; color: #666666; }
+
+#main_2 #goods .paixu span.r_span, #main_2 #goods .paixu #goodlist ul li p.r_span, #main_2 #goods #goodlist ul li .paixu p.r_span { float: right; line-height: 25px; margin-left: 5px; }
+
+#main_2 #goods .paixu span.i, #main_2 #goods .paixu #goodlist ul li p.i, #main_2 #goods #goodlist ul li .paixu p.i { width: 80px; height: 25px; background-color: white; text-align: center; line-height: 25px; }
+
+#main_2 #goods .paixu input { margin-left: 10px; }
+
+#main_2 #goods #goodlist ul { overflow: hidden; }
+
+#main_2 #goods #goodlist ul li { float: left; width: 244px; height: 360px; border: 2px solid #FFFFFF; line-height: 20px; }
+
+#main_2 #goods #goodlist ul li:hover { border: 2px solid #CE0000; }
+
+#main_2 #goods #goodlist ul li:hover h4 { display: block; }
+
+#main_2 #goods #goodlist ul li:hover .synopsis { display: none; }
+
+#main_2 #goods #goodlist ul li img { width: 200px; height: 200px; margin: 0 auto; }
+
+#main_2 #goods #goodlist ul li span, #main_2 #goods #goodlist ul li p { line-height: 20px; font-size: 12px; color: #666666; }
+
+#main_2 #goods #goodlist ul li p { padding: 3px 0px; }
+
+#main_2 #goods #goodlist ul li p.synopsis { text-align: center; background-color: #CE0000; color: white; }
+
+#main_2 #goods #goodlist ul li span, #main_2 #goods #goodlist ul li p { padding: 5px; }
+
+#main_2 #goods #goodlist ul li span.price, #main_2 #goods #goodlist ul li p.price { font-weight: bold; }
+
+#main_2 #goods #goodlist ul li span.discount, #main_2 #goods #goodlist ul li p.discount { color: #CE0000; }
+
+#main_2 #goods #goodlist ul li span.sale_qty, #main_2 #goods #goodlist ul li p.sale_qty { color: #CCCCCC; float: right; }
+
+#main_2 #goods #goodlist ul li h4 { display: none; margin-top: 10px; font-weight: normal; border-top: 1px solid #ccc; color: #CE0000; }
+
+#main_2 #goods #goodlist ul li h4 span, #main_2 #goods #goodlist ul li h4 p { line-height: 40px; color: #CE0000; }
+
+#main_2 #goods #goodlist ul li h4 label { float: right; font-size: 12px; line-height: 40px; margin-right: 20px; }
+
+#main_2 #goods #page { width: 800px; margin: 10px auto; }
+
+#main_2 #goods #page span, #main_2 #goods #page #goodlist ul li p, #main_2 #goods #goodlist ul li #page p { display: inline-block; font-size: 12px; color: #997239; padding: 6px 12px; border: 1px solid #ddd; line-height: 18px; }
+
+#main_2 #goods #page span.active, #main_2 #goods #page #goodlist ul li p.active, #main_2 #goods #goodlist ul li #page p.active { background-color: #CC0000; color: white; }
+
+#main_2 #goods .img { padding: 10px 0px; }
+
+#main_2 #goods .img img { margin: 0 auto; }
+
+#main_3 { width: 980px; float: right; background-color: white; margin-top: 20px; padding: 20px 10px; }
+
+#main_3 h4 { color: #B01330; font-size: 12px; font-weight: normal; }
+
+#main_3 ul { margin-top: 10px; }
+
+#main_3 ul li { width: 230px; float: left; margin-right: 10px; }
+
+#main_3 ul li:hover p { color: #B01330; }
+
+#main_3 ul li img { width: 200px; }
+
+#main_3 ul li p { font-size: 12px; color: #666666; }
+
+#main_3 ul li s { font-size: 12px; color: #CCCCCC; }
+
+#main_3 ul li span, #main_3 #main_2 #goods #goodlist ul li p, #main_2 #goods #goodlist #main_3 ul li p { font-size: 12px; color: #CCCCCC; }
+
+#main_3 ul li span:nth-of-type(1), #main_3 #main_2 #goods #goodlist ul li p:nth-of-type(1), #main_2 #goods #goodlist #main_3 ul li p:nth-of-type(1) { font-size: 16px; color: #B01330; }
+
+#main_3 ul li span:last-child, #main_3 #main_2 #goods #goodlist ul li p:last-child, #main_2 #goods #goodlist #main_3 ul li p:last-child { float: right; margin-right: 28px; }
+
+#main_3 .img_lbt { margin: 10px 0px; }
+
+#main_3 .img_lbt img { width: 930px; height: 300px; }
+
+#main_4 { width: 980px; background-color: white; margin-top: 20px; padding: 20px 10px; float: right; }
+
+#main_4 .box { margin-top: 10px; }
+
+#main_4 h4 { color: #666; font-size: 12px; padding: 5px 0px; border-bottom: 1px solid #AAAAAA; }
+
+#main_4 a { font-size: 12px; color: #666666; margin-right: 8px; }
+
+#main_4 a:hover { color: #b01330; }

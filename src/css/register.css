@@ -1,0 +1,71 @@
+.header { width: 990px; height: 90px; margin: 0 auto; }
+
+.header img { display: inline-block; }
+
+.header img:first-child { margin-top: 15px; }
+
+.register { width: 100%; position: relative; padding-bottom: 20px; }
+
+.register img { width: 100%; height: 370px; }
+
+.register form { padding: 20px; position: absolute; width: 290px; height: 340px; right: 125px; top: 15px; background-color: white; box-sizing: border-box; }
+
+.register form #username_p { display: none; font-size: 12px; padding: 5px 0px 5px 20px; background-color: #feffd0; color: #f30; border: 1px solid #ff8e46; }
+
+.register form #password_p { display: none; font-size: 12px; padding: 5px 0px 5px 20px; background-color: #feffd0; color: #f30; border: 1px solid #ff8e46; }
+
+.register form h3 { display: inline-block; font-weight: normal; margin: 0px; }
+
+.register form .phone { float: right; font-size: 12px; margin-top: 5px; margin-right: 10px; color: #666666; }
+
+.register form input { width: 100%; height: 30px; margin-top: 10px; }
+
+.register form .checkbox { width: 15px; height: 15px; }
+
+.register form label { display: inline-block; width: 60px; height: 25px; position: relative; }
+
+.register form label span { position: absolute; width: 60px; left: 4px; top: 11px; font-size: 12px; color: #666; }
+
+.register form .denglu { display: block; height: 30px; background-color: #CE0000; color: white; text-align: center; line-height: 30px; margin-top: 10px; }
+
+.register form .zhuce { float: left; color: #999999; font-size: 12px; padding-top: 15px; }
+
+.register form .forget { float: right; color: #999999; font-size: 12px; padding-top: 15px; }
+
+.register form .box_hezuo { margin-top: 20px; }
+
+.register form .box_hezuo p { font-size: 12px; color: #6a6a6a; padding-bottom: 5px; }
+
+.register form .box_hezuo a { position: relative; padding-left: 20px; padding-right: 4px; font-size: 12px; color: #005aa0; border-right: 1px solid #AAAAAA; }
+
+.register form .box_hezuo a:last-child { border-right: 0 none; }
+
+.register form .box_hezuo a i { position: absolute; left: 0px; top: 0px; display: block; width: 16px; height: 16px; }
+
+.register form .box_hezuo a i.zhi { background: url(../img/l__.gif) 0px -130px; }
+
+.register form .box_hezuo a i.qq { background: url(../img/l__.gif) 0px -262px; }
+
+.register form .box_hezuo a i.weibo { background: url(../img/l__.gif) 0px -395px; }
+
+.register form .box_hezuo a i.weixin { background: url(../img/l__.gif) 0px -461px; }
+
+.foot { width: 990px; margin: 0 auto; position: relative; }
+
+.foot ul li { float: left; }
+
+.foot ul li a { font-size: 12px; color: #333333; padding: 5px; }
+
+.foot ul li a span { padding-right: 5px; border-right: 1px solid #6A6A6A; }
+
+.foot ul li:first-child a { padding-left: 0px; }
+
+.foot p { font-size: 12px; color: #999; line-height: 20px; }
+
+.foot p:first-of-type { margin-top: 20px; }
+
+.foot img { margin-top: 10px; margin-right: 5px; width: 94px; height: 41px; float: left; }
+
+.foot .erweima { position: absolute; right: 0px; top: 0px; }
+
+.foot .erweima img { float: left; width: 75px; height: 95px; margin: 5px; }

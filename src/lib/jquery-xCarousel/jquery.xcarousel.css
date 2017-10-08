@@ -1,7 +1,7 @@
 .xcarousel{position:relative;width: 224px;height: 288px;overflow: hidden;}
 .xcarousel ul{position:absolute;left:0;top:0;overflow: hidden;}
 .xcarousel ul.horizontal li{float:left;}
-.xcarousel ul.fade li{position: absolute;top:-20px;left:-100px}
+.xcarousel ul.fade li{position: absolute;top:-20px;left:-100px;}
 .xcarousel img{display:block;}
 .xcarousel .page{position:absolute;left:50%;bottom:10px;transform: translateX(-50%);background: rgba(0,0,0,0.5);padding: 6px;border-radius: 10px;}
 .xcarousel .page span{display:inline-block;width: 8px;height: 8px;overflow: hidden;background: #808080;border-radius: 50%;margin:0 8px;text-indent:-1000px;}

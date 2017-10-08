@@ -5,24 +5,22 @@
 		<title>万表网官网</title>
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="stylesheet" href="css/index.css" />
-		<link rel="stylesheet" href="lib/jquery-xCarousel/jquery.xcarousel.css">		
-		<!--<script src="lib/jquery-3.1.1.js"></script>
-		<script type="text/javascript" src="js/banner.js" ></script>
-		<script src="lib/jquery-xCarousel/jquery.xcarousel.js"></script>
-		<script type="text/javascript" src="js/header_1.js" ></script>
-		<script src="js/endtimer.js"></script>
-		<script type="text/javascript" src="js/like.js" ></script>
-		<script src="js/footer.js"></script>-->
+		<link rel="stylesheet" href="lib/jquery-xCarousel/jquery.xcarousel.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		
 		<script src="lib/require.js" data-main = "js/index" ></script>
 	</head>
 	<body>
 		<div class="bigbox">
+			<div class="guanggao">
+				<img src="img/guanggao.jpg"/>
+				<span>&times;</span>
+			</div>
 			<div class="header1">
 				<div class="content clear">
 					<ul>
-						<li><a href="#"><span>登录</span></a></li>
-						<li><a href="#"><span>注册（即送50元）</span></a></li>
+						<li><a href="html/register.html"><span>登录</span></a></li>
+						<li><a href="html/login.html"><span>注册（即送50元）</span></a></li>
 						<li><a href="#"><span>我的订单</span></a></li>
 						<li>
 							<a href="#">
@@ -96,11 +94,11 @@
 			<div class="nav">
 				<div class="content">
 					<ul class="clear">
-						<li>
-							<i></i>
+						<li class="fa">
+							<i class="iconfont icon-caidan"></i>
 							<a href="#">全部腕表</a>
-								<ul class="clear"> 
-									<li>
+								<ul class="fa_ul clear"> 
+									<li class="fa_ul_li">
 										<a href="#">
 											<p>顶级品牌</p>
 											<span>百达翡丽</span>
@@ -180,7 +178,7 @@
 										</div>
 									
 									</li>
-									<li>
+									<li class="fa_ul_li">
 										<a href="#">
 											<p>奢华品牌</p>
 											<span>欧米切</span>
@@ -266,7 +264,7 @@
 										</div>
 									
 									</li>
-									<li>
+									<li class="fa_ul_li">
 										<a href="#">
 											<p>轻奢品牌</p>
 											<span>天梭</span>
@@ -354,7 +352,7 @@
 										</div>
 									
 									</li>
-									<li>
+									<li class="fa_ul_li">
 										<a href="#">
 											<p>时尚、潮牌</p>
 											<span>卡西欧</span>
@@ -436,7 +434,7 @@
 										</div>
 									
 									</li>
-									<li>
+									<li class="fa_ul_li">
 										<a href="#">
 											<p>智能表、国产表</p>
 											<span>飞亚达</span>
@@ -532,7 +530,6 @@
 			</div>
 		
 			<div id="banner">
-				<div class="ltb"></div>
 			</div>
 			
 			<div class="ship">
@@ -988,6 +985,19 @@
 						</div>
 					</div>
 				</div>
+				
+				
+				<div id="fix_left">
+					<ul>
+						<li>热销</li>
+						<li>闪购</li>
+						<li>新品</li>
+						<li>品牌</a></li>
+						<li>猜你喜欢</li>
+						<li>晒单</li>
+						<li>资讯</li>
+					</ul>
+				</div>
 			</div>
 			
 			<div id="zhengpin">
@@ -1115,17 +1125,26 @@
 				</div>
 			</div>
 			
-			<div id="fix_left">
+			<div id="fix_right_t">
+				<i></i>
+				<div class="box">
+					<i>&times;</i>
+					<p>十月名表巨惠</p>
+					<h3>满3000立减100元</h3>
+					<a href="#">名表顾问</a>
+					<a href="#">售后服务</a>
+				</div>
+			</div>
+			<div id="fix_right_b">
 				<ul>
-					<li>热销</li>
-					<li>闪购</li>
-					<li>新品</li>
-					<li>品牌</a></li>
-					<li>猜你喜欢</li>
-					<li>晒单</li>
-					<li>资讯</li>
+					<li><i class="iconfont icon-cart"><a>购物车</a></i></li>			
+					<li><i class="iconfont icon-erweima"></i><a><img src="img/erweima_2.png"/><p>下载万表商城APP</p></a></li>
+					<li><i class="iconfont icon-jianyi"></i><a>建议有奖</a></li>
+					<li><i class="iconfont icon-xiangshangjiantou"></i><a>返回顶部</a></li>
 				</ul>
 			</div>
+		
+		
 		</div>
 	</body>
 </html>
