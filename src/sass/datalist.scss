@@ -46,8 +46,13 @@
 				width: 480px;
 				height: 480px;
 				border: 1px solid #CCCCCC;
+				overflow: hidden;
+				position: relative;
 				img{
 					width: 470px;
+					position: absolute;
+					left: 0px;
+					top: 0px;
 					height: 470px;
 					padding: 5px;
 				}

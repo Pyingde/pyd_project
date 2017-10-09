@@ -10,9 +10,9 @@
 
 #data .body .imgbox_l { margin-top: 20px; width: 480px; float: left; }
 
-#data .body .imgbox_l .imgbox { width: 480px; height: 480px; border: 1px solid #CCCCCC; }
+#data .body .imgbox_l .imgbox { width: 480px; height: 480px; border: 1px solid #CCCCCC; overflow: hidden; position: relative; }
 
-#data .body .imgbox_l .imgbox img { width: 470px; height: 470px; padding: 5px; }
+#data .body .imgbox_l .imgbox img { width: 470px; position: absolute; left: 0px; top: 0px; height: 470px; padding: 5px; }
 
 #data .body .imgbox_l ul { width: 100%; height: 105px; }
 

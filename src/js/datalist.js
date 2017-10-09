@@ -15,7 +15,7 @@ require.config({
 	
 });
 
-require(['jquery','load','xcarousel','header_1','footer','fixed','banner','datalist_tab','goodlist','datalist_find'],function($,load,xcarousel,header_1,footer,fixed,banner,datalist_tab,goodlist,datalist_find){
+require(['jquery','load','xcarousel','header_1','footer','fixed','banner','datalist_tab','goodlist','datalist_find','zoom'],function($,load,xcarousel,header_1,footer,fixed,banner,datalist_tab,goodlist,datalist_find,zoom){
 	
 	load.load(function(){
 		header_1.header_1();
@@ -27,5 +27,5 @@ require(['jquery','load','xcarousel','header_1','footer','fixed','banner','datal
 	banner.banner();
 	datalist_tab.datalist_tab();
 	datalist_find.datalist_find();
-	
+	zoom.zoom();
 });
